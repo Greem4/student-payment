@@ -2,7 +2,7 @@ package edu.javacourse.student.domain;
 
 import javax.persistence.*;
 import java.time.LocalDate;
-@MappedSuperclass
+@Embeddable
 public class Adult extends Person {
     private String passportSeria;
     private String passportNumber;
